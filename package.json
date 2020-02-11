@@ -1,0 +1,38 @@
+{
+  "name": "noteio",
+  "version": "1.0.0",
+  "description": "Social Media Application For Musicians",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoteIo/App.git"
+  },
+  "author": "Jan Spencer Catalan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoteIo/App/issues"
+  },
+  "homepage": "https://github.com/NoteIo/App#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "axios": "^0.19.2",
+    "css-loader": "^3.4.2",
+    "express": "^4.17.1",
+    "file-loader": "^5.0.2",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-hot-loader": "^4.12.19",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
