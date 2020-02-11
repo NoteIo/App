@@ -4,7 +4,10 @@
   "description": "Social Media Application For Musicians",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start-Web": "NODE_ENV=production node Server/Website/server.js",
+    "build": "NODE_ENV=production webpack",
+    "dev": "nodemon server/server.js & NODE_ENV=development webpack-dev-server --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
